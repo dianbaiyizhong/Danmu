@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Danmu", ".", "{AD5D1E7A-44B1-4BF8-B099-9725BECFBD03}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{1A7A17FD-6903-4D37-BB26-647B31B8FB3E}|DBLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Danmu"
+		Debug.AspNetCompiler.PhysicalPath = "..\Danmu\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Danmu\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Danmu"
+		Release.AspNetCompiler.PhysicalPath = "..\Danmu\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Danmu\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2558"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBLibrary", "DBLibrary\DBLibrary.csproj", "{1A7A17FD-6903-4D37-BB26-647B31B8FB3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD5D1E7A-44B1-4BF8-B099-9725BECFBD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5D1E7A-44B1-4BF8-B099-9725BECFBD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5D1E7A-44B1-4BF8-B099-9725BECFBD03}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5D1E7A-44B1-4BF8-B099-9725BECFBD03}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1A7A17FD-6903-4D37-BB26-647B31B8FB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7A17FD-6903-4D37-BB26-647B31B8FB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7A17FD-6903-4D37-BB26-647B31B8FB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7A17FD-6903-4D37-BB26-647B31B8FB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
